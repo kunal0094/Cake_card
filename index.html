@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Chocolate Cake Recipe</title>
+  </head>
+  <body>
+    <div class="recipe-card">
+      <h1>Chocolate Cake</h1>
+      <img src="image-cholate.jpg" alt="Chocolate Cake" class="recipe-image" />
+
+      <div class="details">
+        <div class="prep-time">
+          <br />
+          <strong>Preparation Time:</strong> 45 minutes
+          <strong>Serves:</strong> 8
+        </div>
+        <br />
+        <button id="toggle-ingredients">Show Ingredients</button>
+        <ul id="ingredients" class="hidden">
+          <li>1 cup sugar</li>
+          <li>1/2 cup butter</li>
+          <li>2 eggs</li>
+          <li>1 cup flour</li>
+          <li>1/2 cup cocoa powder</li>
+          <li>1 tsp baking powder</li>
+          <li>1/2 cup milk</li>
+        </ul>
+
+        <button id="start-cooking">Start Cooking</button>
+        <div class="steps" id="steps">
+          <h2>Instructions</h2>
+          <ol>
+            <li class="step">Preheat oven to 350°F (175°C).</li>
+            <li class="step">Mix sugar and butter together.</li>
+            <li class="step">Add eggs and mix well.</li>
+            <li class="step">
+              Combine dry ingredients and add to the mixture.
+            </li>
+            <li class="step">Pour in the milk and stir.</li>
+            <li class="step">Pour batter into a greased pan.</li>
+            <li class="step">Bake for 30 minutes.</li>
+          </ol>
+        </div>
+        <div class="timer-display" id="timer-display"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
